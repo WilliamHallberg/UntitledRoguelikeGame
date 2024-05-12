@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac7166a68997d64baf426775dc1913e, type: 3}
+  m_Name: Knife Weapon
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4117877654340945999, guid: 902274020a598e441b7bb5414a4d568c, type: 3}
+  damage: 5
+  speed: 10
+  cooldownDuration: 2
+  pierce: 1
+  level: 1
+  nextLevelPrefab: {fileID: 7710251908538954240, guid: f2af2f8b12c08cf44b1e123ff556c65a, type: 3}
+  name: Knife
+  description: Throw knives where you look
+  icon: {fileID: -501795069, guid: 5f32f3352de3120468baf5c39b5f4ba9, type: 3}
